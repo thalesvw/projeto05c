@@ -10,6 +10,6 @@ buttonClose: document.querySelector('.close'),
   }
 }
 
-Modal.buttonClose.onClick = () => {
+Modal.buttonClose.onclick = () => {
   Modal.close()
 }
